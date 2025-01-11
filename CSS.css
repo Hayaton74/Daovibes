@@ -1,3 +1,86 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Header Section */
+.hero {
+    background: url('h.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 99vh;
+    position: relative;
+}
+.hero {
+    width: 500%;
+    height: 200px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Memisahkan logo dan menu */
+    padding: 0 20px; /* Memberikan ruang di kiri dan kanan */
+}
+
+.logo {
+    flex: 1; /* Logo tetap di kiri */
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-end; /* Menggeser menu ke kanan */
+    gap: 20px; /* Jarak antar menu */
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #ff9800;
+}
+
+.action-btn {
+    background: #ff9800;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.action-btn:hover {
+    background: #e68900;
+}
 /*ABOUT HTML*/
 body {
     font-family: Arial, sans-serif;
