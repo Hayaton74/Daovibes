@@ -479,3 +479,39 @@ body {
     padding-top: 10px;
     font-size: 13px;
 }
+/* Tablet Screens */
+@media (max-width: 768px) {
+    .nav-menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .mission-values {
+        flex-direction: column;
+    }
+}
+
+/* Mobile Screens */
+@media (max-width: 480px) {
+    .hero {
+        height: 200px;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .mission,
+    .values {
+        margin-bottom: 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
