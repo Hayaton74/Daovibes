@@ -481,7 +481,6 @@ body {
 }
 /* Tablet Screens */
 @media (max-width: 768px) {
-    
     .nav-menu {
         flex-direction: column;
         gap: 10px;
@@ -498,9 +497,8 @@ body {
 
 /* Mobile Screens */
 @media (max-width: 480px) {
-   
     .hero {
-        height: 100px;
+        height: 200px;
     }
 
     .hero h1 {
@@ -509,7 +507,7 @@ body {
 
     .mission,
     .values {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .footer-container {
