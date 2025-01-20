@@ -481,9 +481,12 @@ body {
 }
 /* Tablet Screens */
 @media (max-width: 768px) {
+    .logo {
+        width: 80px; /* Logo lebih kecil di layar tablet */
+    }
     .nav-menu {
         flex-direction: column;
-        gap: 10px;
+        gap: 5px;
     }
 
     .hero h1 {
@@ -497,8 +500,11 @@ body {
 
 /* Mobile Screens */
 @media (max-width: 480px) {
+    .logo {
+        width: 60px; /* Logo lebih kecil di layar tablet */
+    }
     .hero {
-        height: 200px;
+        height: 100px;
     }
 
     .hero h1 {
@@ -507,7 +513,7 @@ body {
 
     .mission,
     .values {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .footer-container {
