@@ -482,7 +482,7 @@ body {
 /* Tablet Screens */
 @media (max-width: 768px) {
     .logo {
-        width: 80px; /* Logo lebih kecil di layar tablet */
+         font-size: 20px; /* Logo lebih kecil di layar tablet */
     }
     .nav-menu {
         flex-direction: column;
@@ -501,7 +501,7 @@ body {
 /* Mobile Screens */
 @media (max-width: 480px) {
     .logo {
-        width: 60px; /* Logo lebih kecil di layar tablet */
+        font-size:  16px; /* Logo lebih kecil di layar tablet */
     }
     .hero {
         height: 100px;
