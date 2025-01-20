@@ -490,14 +490,14 @@ body {
 @media (max-width: 768px) {
     .hero {
         height: auto;
-        padding: 5px;
+        padding: 20px;
         text-align: center;
     }
 
     .navbar {
         flex-direction: column;
         align-items: flex-start;
-        gap: 5px;
+        gap: 15px;
     }
 
     .nav-menu {
@@ -506,11 +506,12 @@ body {
     }
 
     .nav-menu a {
-        font-size: 6px;
+        font-size: 16px;
     }
 
     .mission-values {
         flex-direction: column;
+        gap:20px;
     }
 
     .mission, .values {
@@ -519,6 +520,7 @@ body {
 
     .service-content {
         flex-direction: column;
+        gap:30px;
     }
 
     .service-item {
@@ -536,8 +538,8 @@ body {
     }
 
     .team-photos img {
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
     }
 
     .footer-container {
@@ -557,19 +559,24 @@ body {
 /* Extra small screens */
 @media (max-width: 480px) {
     .hero-content h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .nav-menu a {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .contact-form input,
     .contact-form textarea {
         font-size: 14px;
+        padding: 8px;
     }
 
     .footer {
         font-size: 12px;
+        text-align: center;
+    .team-photos img{
+        width: 100px;
+        height: 100px;
     }
 }
