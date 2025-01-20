@@ -481,9 +481,7 @@ body {
 }
 /* Tablet Screens */
 @media (max-width: 768px) {
-    .logo {
-         font-size: 20px; /* Logo lebih kecil di layar tablet */
-    }
+    
     .nav-menu {
         flex-direction: column;
         gap: 5px;
@@ -500,9 +498,7 @@ body {
 
 /* Mobile Screens */
 @media (max-width: 480px) {
-    .logo {
-        font-size:  16px; /* Logo lebih kecil di layar tablet */
-    }
+   
     .hero {
         height: 100px;
     }
