@@ -206,7 +206,7 @@ button:hover {
   font-size: 13px;
 }
 /* Responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 412x917px) {
   .navbar {
     flex-direction: column; /* Navbar berubah menjadi kolom pada layar kecil */
     align-items: flex-start;
