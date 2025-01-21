@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('9.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  padding-top: 60px; /* Memberikan ruang untuk navbar fixed */
+}
+/* Styling Navbar */
+.navbar {
+  position: fixed; /* Membuat navbar tetap pada posisinya */
+  top: 0; /* Menempel di bagian atas */
+  left: 0; /* Menempel di bagian kiri */
+  width: 100%; /* Memastikan navbar mengisi lebar layar */
+  z-index: 1000; /* Supaya navbar tetap di atas elemen lain */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Logo di kiri, menu di kanan */
+  background-color: #333; /* Warna background */
+  padding: 10px 10px;
+  color: #fff;
+}
+
+
+/* Logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Navigation Menu */
+.navbar ul {
+  list-style: none; /* Menghapus bullet points */
+  display: flex; /* Membuat menu horizontal */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin-left: 20px; /* Jarak antar menu */
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #ff9800; /* Warna hover */
+}
+
+/* Button */
+.navbar button {
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+  margin-left: 10px;
+}
+
+.navbar button:hover {
+  background-color: #e68900;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.book {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  margin: 80px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.book img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.details {
+  margin-top: 10px;
+}
+
+.details p {
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #ffffff;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #333; /* Warna latar belakang footer */
+  padding: 5px 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 50px;
+  flex-wrap: wrap;
+}
+
+.footer-address {
+  flex: 1;
+  text-align: left;
+}
+
+.footer-address p {
+  margin: 0 0 10px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.footer-social a img {
+  width: 30px; /* Ukuran ikon media sosial */
+  height: 30px;
+  transition: transform 0.3s;
+}
+
+.footer-social a:hover img {
+  transform: scale(1.2); /* Animasi saat di-hover */
+}
+
+.footer-links {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.footer-links div{
+  flex: 1;
+}
+.footer-links h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 5px;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #444; /* Warna saat di-hover */
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 13px;
+}
+/* Responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Navbar berubah menjadi kolom pada layar kecil */
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .navbar ul {
+    display: flex;
+    justify-content: space-around; /* Menu navigasi berubah menjadi vertikal */
+    width: 100%; /* Mengisi lebar layar */
+    flex-wrap: nowrap;
+  }
+
+  .navbar ul li {
+    margin-left: 0; /* Hapus jarak horizontal antar menu */
+    margin-bottom: 10px; /* Beri jarak antar item menu */
+  }
+
+  .navbar ul li a {
+    font-size: 14px; /* Ukuran teks lebih kecil di layar kecil */
+  }
+
+  .navbar button {
+    align-self: flex-end; /* Tombol berada di kanan bawah */
+    margin-left: 15px;
+  }
+}
