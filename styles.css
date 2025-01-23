@@ -205,32 +205,3 @@ button:hover {
   padding-top: 10px;
   font-size: 13px;
 }
-/* Responsiveness */
-@media (max-width: 412x917px) {
-  .navbar {
-    flex-direction: column; /* Navbar berubah menjadi kolom pada layar kecil */
-    align-items: flex-start;
-    padding: 10px;
-  }
-
-  .navbar ul {
-    display: flex;
-    justify-content: space-around; /* Menu navigasi berubah menjadi vertikal */
-    width: 100%; /* Mengisi lebar layar */
-    flex-wrap: nowrap;
-  }
-
-  .navbar ul li {
-    margin-left: 0; /* Hapus jarak horizontal antar menu */
-    margin-bottom: 10px; /* Beri jarak antar item menu */
-  }
-
-  .navbar ul li a {
-    font-size: 14px; /* Ukuran teks lebih kecil di layar kecil */
-  }
-
-  .navbar button {
-    align-self: flex-end; /* Tombol berada di kanan bawah */
-    margin-left: 15px;
-  }
-}
