@@ -311,34 +311,6 @@ body {
     margin-bottom: 30px;
   }
   
-  .contact-details {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    flex-wrap: wrap;
-  }
-  
-  .contact-info {
-    flex: 1;
-    text-align: left;
-  }
-  
-  .contact-info h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  
-  .contact-info p {
-    margin-bottom: 20px;
-  }
-  
-  .social-ikon {
-    text-decoration: none;
-    margin-right: 10px;
-    font-size: 1.5em;
-    color: #333;
-  }
-  
   .contact-form {
     flex: 1;
   }
@@ -346,6 +318,7 @@ body {
   .contact-form h2 {
     font-size: 1.5em;
     margin-bottom: 20px;
+    text-align: center;
   }
   
   .contact-form input,
