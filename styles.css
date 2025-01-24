@@ -205,3 +205,92 @@ button:hover {
   padding-top: 10px;
   font-size: 13px;
 }
+@media screen and (max-width: 412px) and (max-height: 917px) {
+    /* Tambahkan gaya CSS khusus di sini */
+    body {
+      background-color: lightblue; /* Contoh perubahan */
+      background: url('https://i.pinimg.com/736x/08/d9/bf/08d9bfb74c34a8b4f41b3241e74f83e0.jpg') no-repeat center center fixed;
+      background-size: cover;
+      padding: 0;
+      margin: 0;
+    }
+    .navbar ul {
+      display: flex; /* Membuat menu horizontal */
+    }
+    .navbar ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 9px;
+      transition: color 0.3s ease;
+    }
+    
+    .navbar ul li a:hover {
+      color: #ff9800; /* Warna hover */
+    }
+    
+    /* Button */
+    .navbar button {
+      background-color: #ff9800;
+      color: #fff;
+      border: none;
+      padding: 1px 2px;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 10px;
+    }
+    
+    .navbar button:hover {
+      background-color: #e68900;
+    }
+    
+  
+    .container {
+      width: 90%; /* Memastikan container responsif */
+      margin: 70px auto; /* Tengah dan memberi jarak */
+      padding: 15px;
+      font-size: 14px;
+      color: #fcfafa;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+  
+    .book {
+      width: 100%; /* Buku mengisi layar */
+      margin: 15px 0; /* Tambahkan margin antar buku */
+    }
+  
+    .book img {
+      height: auto; /* Gambar responsif */
+      border-radius: 5px;
+    }
+  
+    .footer {
+      padding: 15px 10px;
+      font-size: 12px;
+      text-align: center;
+    }
+  
+    .footer-container {
+      flex-direction: column; /* Susunan vertikal */
+      align-items: center; /* Pusatkan konten */
+    }
+  
+    .footer-links {
+      flex-direction: column; /* Kolom footer vertikal */
+      gap: 10px; /* Jarak antar kolom */
+    }
+  
+    .footer-links div {
+      margin-bottom: 10px; /* Tambahkan jarak antar div */
+    }
+  
+    .footer-social {
+      margin: 10px 0;
+    }
+  
+    .footer-social a img {
+      width: 25px; /* Ukuran ikon lebih kecil */
+      height: 25px;
+    }
+  }
+  
