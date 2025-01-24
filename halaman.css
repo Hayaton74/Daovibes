@@ -310,37 +310,62 @@ body {
     font-size: 1.2em;
     margin-bottom: 30px;
   }
+  .contact-details {
+    display: flex;
+    justify-content: center; /* Memusatkan formulir */
+    align-items: center; /* Memastikan formulir berada di tengah secara vertikal */
+    flex-wrap: wrap;
+    gap: 20px;
+  }
   
   .contact-form {
-    flex: 1;
+    flex: 0 0 100%; /* Responsif: lebar penuh pada perangkat kecil */
+    max-width: 500px; /* Ukuran formulir standar */
+    margin: 0 auto; /* Memusatkan formulir secara horizontal */
+    background: #f2e0c9;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
   .contact-form h2 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
+    font-size: 1.8em;
     text-align: center;
+    margin-bottom: 20px;
   }
   
   .contact-form input,
   .contact-form textarea {
-    background-color: #f2e0c9;
     width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .contact-form textarea {
+    resize: none; /* Menghilangkan kemampuan resize */
   }
   
   .contact-form .btn {
-    padding: 10px 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
     background-color: #444;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-bottom: 70px;
+    transition: background-color 0.3s ease;
   }
   
+  .contact-form .btn:hover {
+    background-color: #333;
+  }
+ 
   .contact-team {
     margin-top: 30px;
   }
