@@ -125,7 +125,7 @@ button:hover {
 
 /* Footer styling */
 .footer {
-  background-color: #333; /* Warna latar belakang footer */
+  background-color: rgba(0, 0, 0, 0.1); /* Warna latar belakang footer */
   padding: 5px 0;
   font-family: Arial, sans-serif;
   font-size: 14px;
@@ -356,7 +356,6 @@ button:hover {
       padding: 15px 10px;
       font-size: 12px;
       text-align: center;
-      background-color: rgba(0, 0, 0, 0.1);
     }
   
     .footer-container {
